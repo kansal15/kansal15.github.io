@@ -67,30 +67,30 @@
         $('.js-lonon-nav-toggle').on('click', function (event) {
             event.preventDefault();
             var $this = $(this);
-            if ($('body').hasClass('offcanvas')) {
+            if ($('body').hasClass('offcanvass')) {
                 $this.removeClass('active');
-                $('body').removeClass('offcanvas');
+                $('body').removeClass('offcanvass');
             }
             else {
                 $this.addClass('active');
-                $('body').addClass('offcanvas');
+                $('body').addClass('offcanvass');
             }
         });
     };
-    // Mobile Menu outside of offcanvass
+    // Mobile Menu outside of offcanvasss
     var mobileMenuOutsideClick = function () {
         $(document).on(function (e) {
             var container = $("#lonon-aside, .js-lonon-nav-toggle");
             if (!container.is(e.target) && container.has(e.target).length === 0) {
-                if ($('body').hasClass('offcanvas')) {
-                    $('body').removeClass('offcanvas');
+                if ($('body').hasClass('offcanvass')) {
+                    $('body').removeClass('offcanvass');
                     $('.js-lonon-nav-toggle').removeClass('active');
                 }
             }
         });
         $(window).scroll(function () {
-            if ($('body').hasClass('offcanvas')) {
-                $('body').removeClass('offcanvas');
+            if ($('body').hasClass('offcanvass')) {
+                $('body').removeClass('offcanvass');
                 $('.js-lonon-nav-toggle').removeClass('active');
             }
         });
