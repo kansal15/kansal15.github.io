@@ -293,7 +293,7 @@ input[type="checkbox"] {
 
 #lonon-page {
   width: 88%;
-  margin: 6%;
+  margin: 6% 6% 30px 6%;
   overflow: hidden;
   position: relative;
 }
@@ -338,6 +338,12 @@ input[type="checkbox"] {
   right: -20px !important;
   z-index: 1;
   display: block;
+}
+
+.carousel-item {
+  height: 430px;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -914,7 +920,7 @@ body.offcanvass .lonon-nav-toggle {
   margin: 0 3px;
 }
 
-.lonon-pagination-wrap li a {
+.lonon-pagination-wrap li {
   background: #f6f6f6;
   display: inline-block;
   width: 40px;
@@ -926,7 +932,7 @@ body.offcanvass .lonon-nav-toggle {
   border-radius: 50%;
 }
 
-.lonon-pagination-wrap li a:hover {
+.lonon-pagination-wrap li:hover {
   opacity: 1;
   text-decoration: none;
   background: #101010;
@@ -934,9 +940,13 @@ body.offcanvass .lonon-nav-toggle {
   box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.2);
 }
 
-.lonon-pagination-wrap li a.active {
+.lonon-pagination-wrap li.active {
   background: #101010;
   color: #fff;
+}
+
+.lonon-pagination-wrap .pageNumbers {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
