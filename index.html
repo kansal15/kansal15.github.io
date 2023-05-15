@@ -12,7 +12,13 @@
     <link rel="stylesheet" href="css/et-lineicons.css" />
     <link rel="stylesheet" href="css/themify-icons.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Magnific Popup CSS-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css" />
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
@@ -29,6 +35,7 @@
       gtag('config', 'UA-144098545-1');
     </script>
     -->
+
 </head>
 
 <body>
@@ -85,34 +92,33 @@
                                         data-animate-effect="fadeInLeft" alt="" /> -->
 
                                     <!-- Carousel -->
-                                    <div id="demo" class="carousel slide" data-bs-ride="carousel"
-                                        data-bs-interval="80000">
+                                    <div class="gallery-slider_wrapper">
+                                        <div class="single-gallery-carousel-content-box owl-carousel owl-theme">
+                                            <a class="item" href="images/my_image.jpg">
+                                                <img src="images/my_image.jpg" alt="Awesome Image" />
+                                            </a>
+                                            <a class="item" href="images/gaurav_image.jpg">
+                                                <img src="images/gaurav_image.jpg" alt="Awesome Image" />
+                                            </a>
+                                            <a class="item" href="images/my_image.jpg">
+                                                <img src="images/my_image.jpg" alt="Awesome Image" />
+                                            </a>
 
-                                        <!-- The slideshow/carousel -->
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active"
-                                                style="background-image: url(images/my_image.jpg);">
-
-                                            </div>
-                                            <div class="carousel-item"
-                                                style="background-image: url(images/gaurav_image.jpg);">
-
-                                            </div>
-                                            <div class="carousel-item"
-                                                style="background-image: url(images/my_image.jpg);">
+                                        </div>
+                                        <div style="">
+                                            <div class="single-gallery-carousel-thumbnail-box owl-carousel owl-theme">
+                                                <div class="item" href="images/my_image.jpg">
+                                                    <img src="images/my_image.jpg" alt="Awesome Image" />
+                                                </div>
+                                                <div class="item" href="images/gaurav_image.jpg">
+                                                    <img src="images/gaurav_image.jpg" alt="Awesome Image" />
+                                                </div>
+                                                <div class="item" href="images/my_image.jpg">
+                                                    <img src="images/my_image.jpg" alt="Awesome Image" />
+                                                </div>
 
                                             </div>
                                         </div>
-
-                                        <!-- Left and right controls/icons -->
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#demo"
-                                            data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon"></span>
-                                        </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#demo"
-                                            data-bs-slide="next">
-                                            <span class="carousel-control-next-icon"></span>
-                                        </button>
                                     </div>
                                 </div>
                                 <div class="bg-color-shade">
@@ -257,13 +263,13 @@
             <div id="lonon-footer2">
                 <div class="lonon-narrow-content">
                     <div class="row">
-                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="col-md-5 animate-box" data-animate-effect="fadeInLeft">
                             <p class="lonon-lead">&copy; 2019-2023 Gaurav Kansal. All rights reserved</p>
                         </div>
                         <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
                             <h2 class="text-center">Gaurav Kansal</h2>
                         </div>
-                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
                             <ul class="social-network">
                                 <!-- <li><a href="#"><i class="ti-facebook font-14px black-icon"></i></a></li> -->
                                 <li>
@@ -290,6 +296,102 @@
         <script src="js/sticky-kit.min.js"></script>
         <script src="js/main.js"></script>
 
+        <!-- Owl Carousel JS-->
+        <script src="js/owl.carousel.js"></script>
+        <!-- Magnific Popup JS-->
+        <script src='js/jquery.magnific-popup.js'></script>
+
+        <script>
+            function singleGalleryCarousel() {
+                if ($('.single-gallery-carousel-content-box').length && $('.single-gallery-carousel-thumbnail-box').length) {
+
+                    var $sync1 = $(".single-gallery-carousel-content-box"), // variable declaration
+                        $sync2 = $(".single-gallery-carousel-thumbnail-box"),
+                        flag = false,
+                        duration = 500;
+
+                    $sync1.owlCarousel({ //function for preview carousel
+                        items: 1,
+                        margin: 0,
+                        nav: true,
+                        dots: false
+                    })
+                        .on('changed.owl.carousel', function (e) {
+                            //var currentItem = e.item.index;
+                            //alert(currentItem);
+                            if (!flag) {
+                                flag = true;
+                                $sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
+                                flag = false;
+                            }
+                        });
+
+                    $('.single-gallery-carousel-content-box').magnificPopup({ //function for magnific popup
+                        type: 'image',
+                        delegate: '.owl-item:not(.cloned) a',
+                        closeOnContentClick: false,
+                        removalDelay: 500,
+                        callbacks: {
+                            beforeOpen: function () {
+                                this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+                                this.st.mainClass = this.st.el.attr('data-effect');
+                            }
+                        },
+                        tLoading: 'Loading image #%curr%...',
+                        mainClass: 'mfp-zoom-in mfp-img-mobile',
+                        gallery: {
+                            enabled: true,
+                            navigateByImgClick: true,
+                            preload: [0, 1]
+                        },
+                        zoom: {
+                            enabled: true,
+                            duration: 300
+                        },
+                        image: {
+                            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                            titleSrc: function (item) {
+                                return item.el.attr('title') + '<small></small>';
+                            }
+                        }
+                    });
+
+                    $sync2.owlCarousel({ //function for thumbnails carousel
+                        margin: 1,
+                        items: 7,
+                        nav: true,
+                        dots: false,
+                        navText: false,
+                        center: false,
+                        responsive: {
+                            0: {
+                                items: 2,
+                                autoWidth: false
+                            },
+                            400: {
+                                items: 3,
+                                autoWidth: false
+                            },
+                            768: {
+                                items: 4,
+                                autoWidth: false
+                            }
+                        },
+                    })
+                        .on('click', '.owl-item', function () {
+                            $sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+                        })
+                        .on('changed.owl.carousel', function (e) {
+                            if (!flag) {
+                                flag = true;
+                                $sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+                                flag = false;
+                            }
+                        });
+                };
+            }
+            singleGalleryCarousel(); //FUNCTION CALLED HERE
+        </script>
     </div>
 </body>
 
