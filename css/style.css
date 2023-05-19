@@ -13,7 +13,7 @@
 11. Navigation styles
 12. Cardvisit styles
 13. Skills Progress Bar styles
-14. lonon-timeline styles
+14. profile-timeline styles
 15. Pricing styles 
 16. Testiominals styles 
 ------------------------------------------------------------------- */
@@ -291,14 +291,14 @@ input[type="checkbox"] {
 
 /*** 02. Sidebar styles ***/
 
-#lonon-page {
+#profile-page {
   width: 88%;
   margin: 6% 6% 30px 6%;
   overflow: hidden;
   position: relative;
 }
 
-#lonon-aside {
+#profile-aside {
   padding: 45px 30px;
   width: 20.22%;
   position: fixed;
@@ -359,6 +359,7 @@ input[type="checkbox"] {
 .owl-item img {
   width: 100%;
   max-height: 580px !important;
+  height: 30vw;
   object-fit: cover;
   object-position: center;
 }
@@ -410,13 +411,13 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 1200px) {
-  #lonon-aside {
+  #profile-aside {
     width: 26.4%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #lonon-aside {
+  #profile-aside {
     width: 270px;
     -moz-transform: translateX(-270px);
     -webkit-transform: translateX(-270px);
@@ -427,7 +428,7 @@ input[type="checkbox"] {
   }
 }
 
-#lonon-aside #lonon-logo {
+#profile-aside #profile-logo {
   text-align: center;
   font-weight: 700;
   font-size: 24px;
@@ -438,7 +439,7 @@ input[type="checkbox"] {
   width: 100%;
 }
 
-#lonon-aside #lonon-logo img {
+#profile-aside #profile-logo img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -447,7 +448,7 @@ input[type="checkbox"] {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-#lonon-logo-footer {
+#profile-logo-footer {
   text-align: center;
   font-weight: 400;
   font-size: 22px;
@@ -458,24 +459,24 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 768px) {
-  #lonon-aside #lonon-logo {
+  #profile-aside #profile-logo {
     margin-bottom: 60px;
   }
 }
 
-#lonon-aside #lonon-logo a {
+#profile-aside #profile-logo a {
   display: inline-block;
   text-align: center;
   color: #101010;
 }
 
-#lonon-logo-footer a {
+#profile-logo-footer a {
   display: inline-block;
   text-align: center;
   color: #fff;
 }
 
-#lonon-aside #lonon-logo a span {
+#profile-aside #profile-logo a span {
   display: block;
   margin-top: 0px;
   text-align: center;
@@ -486,19 +487,19 @@ input[type="checkbox"] {
   font-weight: 200;
 }
 
-#lonon-aside #lonon-main-menu ul {
+#profile-aside #profile-main-menu ul {
   text-align: left;
   margin: 0;
   padding: 0;
 }
 
 @media screen and (max-width: 768px) {
-  #lonon-aside #lonon-main-menu ul {
+  #profile-aside #profile-main-menu ul {
     margin: 0 0 30px 0;
   }
 }
 
-#lonon-aside #lonon-main-menu ul li {
+#profile-aside #profile-main-menu ul li {
   margin: 12px 0 12px 0;
   padding: 0 0 8px 0;
   list-style: none;
@@ -511,21 +512,21 @@ input[type="checkbox"] {
   border-bottom: 1px solid #ececec;
 }
 
-#lonon-aside #lonon-main-menu ul li a {
+#profile-aside #profile-main-menu ul li a {
   color: #888;
   position: relative;
 }
 
-#lonon-aside #lonon-main-menu ul li a:hover {
+#profile-aside #profile-main-menu ul li a:hover {
   text-decoration: none;
   color: #101010;
 }
 
-#lonon-aside #lonon-main-menu ul li.lonon-active a {
+#profile-aside #profile-main-menu ul li.profile-active a {
   color: #101010;
 }
 
-#lonon-aside #lonon-main-menu ul li.lonon-active a:after {
+#profile-aside #profile-main-menu ul li.profile-active a:after {
   visibility: visible;
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
@@ -534,7 +535,7 @@ input[type="checkbox"] {
   transform: scaleX(1);
 }
 
-#lonon-aside .lonon-footer {
+#profile-aside .profile-footer {
   position: absolute;
   right: 0;
   left: 0;
@@ -547,46 +548,46 @@ input[type="checkbox"] {
 
 /* footer */
 
-.lonon-footer p {
+.profile-footer p {
   margin-bottom: 0;
   color: #888;
 }
 
-.lonon-footer a {
+.profile-footer a {
   color: #101010;
 }
 
 @media screen and (max-width: 768px) {
-  #lonon-aside .lonon-footer {
+  #profile-aside .profile-footer {
     position: relative;
     padding-top: 90px;
   }
 }
 
-#lonon-aside .lonon-footer span {
+#profile-aside .profile-footer span {
   display: block;
 }
 
-#lonon-aside .lonon-footer ul {
+#profile-aside .profile-footer ul {
   padding: 0;
   margin: 0;
 }
 
-#lonon-aside .lonon-footer ul li {
+#profile-aside .profile-footer ul li {
   padding: 0;
   margin: 0;
   display: inline;
   list-style: none;
 }
 
-#lonon-aside .lonon-footer ul li a {
+#profile-aside .profile-footer ul li a {
   color: #101010;
   padding: 2px;
 }
 
-#lonon-aside .lonon-footer ul li a:hover,
-#lonon-aside .lonon-footer ul li a:active,
-#lonon-aside .lonon-footer ul li a:focus {
+#profile-aside .profile-footer ul li a:hover,
+#profile-aside .profile-footer ul li a:active,
+#profile-aside .profile-footer ul li a:focus {
   text-decoration: none;
   outline: none;
   color: #101010;
@@ -594,7 +595,7 @@ input[type="checkbox"] {
 
 /*** 04. Content styles ***/
 
-#lonon-main {
+#profile-main {
   width: 77%;
   float: right;
   -webkit-transition: 0.5s;
@@ -603,18 +604,18 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 1200px) {
-  #lonon-main {
+  #profile-main {
     width: 70%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #lonon-main {
+  #profile-main {
     width: 100%;
   }
 }
 
-#lonon-hero {
+#profile-hero {
   min-height: 560px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
@@ -623,11 +624,11 @@ input[type="checkbox"] {
   clear: both;
 }
 
-#lonon-hero .btn {
+#profile-hero .btn {
   font-size: 24px;
 }
 
-#lonon-hero .btn.btn-primary {
+#profile-hero .btn.btn-primary {
   padding: 15px 30px !important;
 }
 
@@ -635,7 +636,7 @@ body.offcanvass {
   overflow-x: hidden;
 }
 
-body.offcanvass #lonon-aside {
+body.offcanvass #profile-aside {
   -moz-transform: translateX(0);
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -646,8 +647,8 @@ body.offcanvass #lonon-aside {
   position: fixed;
 }
 
-body.offcanvass #lonon-main,
-body.offcanvass .lonon-nav-toggle {
+body.offcanvass #profile-main,
+body.offcanvass .profile-nav-toggle {
   top: 0;
   -moz-transform: translateX(270px);
   -webkit-transform: translateX(270px);
@@ -658,7 +659,7 @@ body.offcanvass .lonon-nav-toggle {
 
 /*** 06. Heading styles ***/
 
-.lonon-heading {
+.profile-heading {
   color: #101010;
   font-family: "Rambla", sans-serif;
   margin-bottom: 30px;
@@ -667,11 +668,11 @@ body.offcanvass .lonon-nav-toggle {
   line-height: 1.5em;
 }
 
-.lonon-heading span {
+.profile-heading span {
   display: block;
 }
 
-.lonon-about-heading {
+.profile-about-heading {
   color: #101010;
   font-family: "Rambla", sans-serif;
   font-weight: 700;
@@ -679,7 +680,7 @@ body.offcanvass .lonon-nav-toggle {
   line-height: 1.8em;
 }
 
-.lonon-about-contact-wrap {
+.profile-about-contact-wrap {
   width: 100%;
   height: auto;
   clear: both;
@@ -690,7 +691,7 @@ body.offcanvass .lonon-nav-toggle {
   box-sizing: border-box;
 }
 
-.lonon-post-heading {
+.profile-post-heading {
   color: #101010;
   font-family: "Rambla", sans-serif;
   margin-bottom: 30px;
@@ -699,7 +700,7 @@ body.offcanvass .lonon-nav-toggle {
   line-height: 1.8em;
 }
 
-.lonon-post-heading span {
+.profile-post-heading span {
   display: block;
 }
 
@@ -729,7 +730,7 @@ body.offcanvass .lonon-nav-toggle {
 }
 
 @media screen and (max-width: 768px) {
-  .lonon-post-heading {
+  .profile-post-heading {
     margin-bottom: 15px;
     line-height: 1.2em;
   }
@@ -827,21 +828,21 @@ body.offcanvass .lonon-nav-toggle {
   transform: scale(1.1);
 } */
 
-.lonon-post img {
+.profile-post img {
   padding-bottom: 30px;
 }
 
 /* Sidebar */
 
-.lonon-sidebar-part {
+.profile-sidebar-part {
 }
 
-.lonon-sidebar-block {
+.profile-sidebar-block {
   margin-bottom: 60px;
   position: relative;
 }
 
-.lonon-sidebar-block .lonon-sidebar-block-title {
+.profile-sidebar-block .profile-sidebar-block-title {
   color: #101010;
   text-decoration: none;
   font-family: "Rambla", sans-serif;
@@ -852,11 +853,11 @@ body.offcanvass .lonon-nav-toggle {
 
 /* Search */
 
-.lonon-sidebar-search-form {
+.profile-sidebar-search-form {
   position: relative;
 }
 
-.lonon-sidebar-search-submit {
+.profile-sidebar-search-submit {
   position: absolute;
   right: 0px;
   top: 0px;
@@ -972,18 +973,18 @@ body.offcanvass .lonon-nav-toggle {
 
 /* Pagination */
 
-.lonon-pagination-wrap {
+.profile-pagination-wrap {
   padding: 0;
   margin: 0;
   text-align: center;
 }
 
-.lonon-pagination-wrap li {
+.profile-pagination-wrap li {
   display: inline-block;
   margin: 0 3px;
 }
 
-.lonon-pagination-wrap li {
+.profile-pagination-wrap li {
   background: #f6f6f6;
   display: inline-block;
   width: 40px;
@@ -995,7 +996,7 @@ body.offcanvass .lonon-nav-toggle {
   border-radius: 50%;
 }
 
-.lonon-pagination-wrap li:hover {
+.profile-pagination-wrap li:hover {
   opacity: 1;
   text-decoration: none;
   background: #101010;
@@ -1003,17 +1004,17 @@ body.offcanvass .lonon-nav-toggle {
   box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.2);
 }
 
-.lonon-pagination-wrap li.active {
+.profile-pagination-wrap li.active {
   background: #101010;
   color: #fff;
 }
 
-.lonon-pagination-wrap .pageNumbers {
+.profile-pagination-wrap .pageNumbers {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
-  .lonon-pagination-wrap {
+  .profile-pagination-wrap {
     padding: 0 0 60px 0;
     margin: 0;
     text-align: center;
@@ -1297,18 +1298,18 @@ ol.comment-list li .children li {
 
 /*** 05. Section styles ***/
 
-.lonon-blog,
-.lonon-post,
-.lonon-projects,
-.lonon-pricing,
-.lonon-recent-projects,
-.lonon-testiominal,
-.lonon-lonon-timeline,
-.lonon-about,
-.lonon-skills,
-.lonon-clients,
-.lonon-services,
-.lonon-contact {
+.profile-blog,
+.profile-post,
+.profile-projects,
+.profile-pricing,
+.profile-recent-projects,
+.profile-testiominal,
+.profile-profile-timeline,
+.profile-about,
+.profile-skills,
+.profile-clients,
+.profile-services,
+.profile-contact {
   padding-top: 60px;
   padding-bottom: 60px;
   clear: both;
@@ -1318,24 +1319,24 @@ ol.comment-list li .children li {
 }
 
 @media screen and (max-width: 768px) {
-  .lonon-post,
-  .lonon-projects,
-  .lonon-testiominal,
-  .lonon-pricing,
-  .lonon-blog,
-  .lonon-lonon-timeline,
-  .lonon-about,
-  .lonon-testiominal,
-  .lonon-skills,
-  .lonon-services,
-  .lonon-contact {
+  .profile-post,
+  .profile-projects,
+  .profile-testiominal,
+  .profile-pricing,
+  .profile-blog,
+  .profile-profile-timeline,
+  .profile-about,
+  .profile-testiominal,
+  .profile-skills,
+  .profile-services,
+  .profile-contact {
     padding-top: 90px;
     padding-bottom: 60px;
   }
   .heading-meta {
     margin-bottom: 0px;
   }
-  .lonon-recent-projects {
+  .profile-recent-projects {
     padding-top: 30px;
     padding-bottom: 60px;
   }
@@ -1343,12 +1344,12 @@ ol.comment-list li .children li {
 
 /*** 09. Footer styles ***/
 
-#lonon-footer2 {
+#profile-footer2 {
   padding: 60px;
   background: #101010;
 }
 
-#lonon-footer2 h2 {
+#profile-footer2 h2 {
   margin: 0 0 20px 0;
   color: #fff;
   font-size: 24px;
@@ -1358,13 +1359,13 @@ ol.comment-list li .children li {
 }
 
 @media screen and (max-width: 768px) {
-  #lonon-footer2 {
+  #profile-footer2 {
     padding: 80px 30px;
     text-align: center;
   }
 }
 
-.lonon-lead {
+.profile-lead {
   font-size: 13px;
   line-height: 2em;
   color: #fff;
@@ -1372,13 +1373,13 @@ ol.comment-list li .children li {
 
 /* social 1 */
 
-.lonon-social {
+.profile-social {
   padding: 0;
   margin: 0;
   text-align: center;
 }
 
-.lonon-social li {
+.profile-social li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -1388,7 +1389,7 @@ ol.comment-list li .children li {
   *display: inline;
 }
 
-.lonon-social li a {
+.profile-social li a {
   font-size: 22px;
   color: #101010;
   padding: 10px;
@@ -1403,18 +1404,18 @@ ol.comment-list li .children li {
 }
 
 @media screen and (max-width: 768px) {
-  .lonon-social li a {
+  .profile-social li a {
     padding: 10px 8px;
   }
 }
 
-.lonon-social li a:hover {
+.profile-social li a:hover {
   color: #101010;
 }
 
-.lonon-social li a:hover,
-.lonon-social li a:active,
-.lonon-social li a:focus {
+.profile-social li a:hover,
+.profile-social li a:active,
+.profile-social li a:focus {
   outline: none;
   text-decoration: none;
   color: #101010;
@@ -1464,7 +1465,7 @@ ul.social-network li {
   height: 450px;
 }
 
-.lonon-more-contact {
+.profile-more-contact {
   background: #fafafa;
 }
 
@@ -1522,7 +1523,7 @@ ul.social-network li {
 
 /*** 11. Services styles ***/
 
-.lonon-feature {
+.profile-feature {
   width: 100%;
   float: left;
   margin-bottom: 30px;
@@ -1532,14 +1533,14 @@ ul.social-network li {
   border: 1px solid #ececec;
 }
 
-.lonon-feature:hover {
+.profile-feature:hover {
   -webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
   -o-box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
 }
 
-.lonon-services .lonon-icon {
+.profile-services .profile-icon {
   text-align: center;
   background: transparent;
   margin-bottom: 10px;
@@ -1549,17 +1550,17 @@ ul.social-network li {
 @media screen and (max-width: 1200px) {
 }
 
-.lonon-services .lonon-text {
+.profile-services .profile-text {
   width: 100%;
 }
 
-.lonon-services .lonon-text h2,
-.lonon-services .lonon-text h3 {
+.profile-services .profile-text h2,
+.profile-services .profile-text h3 {
   margin: 0;
   padding: 0;
 }
 
-.lonon-services .lonon-text h3 {
+.profile-services .profile-text h3 {
   font-weight: 700;
   margin-bottom: 10px;
   color: #101010;
@@ -1567,46 +1568,46 @@ ul.social-network li {
   font-family: "Rambla", sans-serif;
 }
 
-.lonon-services.lonon-services-sm .lonon-text {
+.profile-services.profile-services-sm .profile-text {
   margin-top: 6px;
 }
 
-.lonon-services.lonon-services-sm .lonon-icon i {
+.profile-services.profile-services-sm .profile-icon i {
   color: #101010;
   font-size: 40px;
 }
 
 @media screen and (max-width: 1200px) {
-  .lonon-services.lonon-services-sm .lonon-icon i {
+  .profile-services.profile-services-sm .profile-icon i {
     font-size: 28px;
   }
 }
 
 /*** 12. Navigation styles ***/
 
-.lonon-nav-toggle {
+.profile-nav-toggle {
   cursor: pointer;
   text-decoration: none;
 }
 
-.lonon-nav-toggle.active i::before,
-.lonon-nav-toggle.active i::after {
+.profile-nav-toggle.active i::before,
+.profile-nav-toggle.active i::after {
   background: #fff;
 }
 
-.lonon-nav-toggle.dark.active i::before,
-.lonon-nav-toggle.dark.active i::after {
+.profile-nav-toggle.dark.active i::before,
+.profile-nav-toggle.dark.active i::after {
   background: #101010;
 }
 
-.lonon-nav-toggle:hover,
-.lonon-nav-toggle:focus,
-.lonon-nav-toggle:active {
+.profile-nav-toggle:hover,
+.profile-nav-toggle:focus,
+.profile-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
 }
 
-.lonon-nav-toggle i {
+.profile-nav-toggle i {
   position: relative;
   display: -moz-inline-stack;
   display: inline-block;
@@ -1624,8 +1625,8 @@ ul.social-network li {
   top: -4px;
 }
 
-.lonon-nav-toggle i::before,
-.lonon-nav-toggle i::after {
+.profile-nav-toggle i::before,
+.profile-nav-toggle i::after {
   content: "";
   width: 20px;
   height: 1px;
@@ -1637,7 +1638,7 @@ ul.social-network li {
   transition: 0.2s;
 }
 
-.lonon-nav-toggle.dark i {
+.profile-nav-toggle.dark i {
   position: relative;
   color: #101010;
   background: #101010;
@@ -1646,35 +1647,35 @@ ul.social-network li {
   transition: all 0.2s ease-out;
 }
 
-.lonon-nav-toggle.dark i::before,
-.lonon-nav-toggle.dark i::after {
+.profile-nav-toggle.dark i::before,
+.profile-nav-toggle.dark i::after {
   background: #101010;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
 
-.lonon-nav-toggle i::before {
+.profile-nav-toggle i::before {
   top: -7px;
 }
 
-.lonon-nav-toggle i::after {
+.profile-nav-toggle i::after {
   bottom: -7px;
 }
 
-.lonon-nav-toggle:hover i::before {
+.profile-nav-toggle:hover i::before {
   top: -10px;
 }
 
-.lonon-nav-toggle:hover i::after {
+.profile-nav-toggle:hover i::after {
   bottom: -10px;
 }
 
-.lonon-nav-toggle.active i {
+.profile-nav-toggle.active i {
   background: transparent;
 }
 
-.lonon-nav-toggle.active i::before {
+.profile-nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -1683,7 +1684,7 @@ ul.social-network li {
   transform: rotateZ(45deg);
 }
 
-.lonon-nav-toggle.active i::after {
+.profile-nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -1692,7 +1693,7 @@ ul.social-network li {
   transform: rotateZ(-45deg);
 }
 
-.lonon-nav-toggle {
+.profile-nav-toggle {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -1710,7 +1711,7 @@ ul.social-network li {
 }
 
 @media screen and (max-width: 768px) {
-  .lonon-nav-toggle {
+  .profile-nav-toggle {
     opacity: 1;
     visibility: visible;
   }
@@ -1980,7 +1981,7 @@ ul.social-network li {
 
 /* 15. Timeline styles */
 
-.lonon-timeline {
+.profile-timeline {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1988,7 +1989,7 @@ ul.social-network li {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.lonon-timeline:before {
+.profile-timeline:before {
   content: "";
   position: absolute;
   width: 1px;
@@ -1997,29 +1998,29 @@ ul.social-network li {
   bottom: 0;
   background-color: #ececec;
 }
-.lonon-timeline.boxed-lonon-timeline:before {
+.profile-timeline.boxed-profile-timeline:before {
   top: 0;
   bottom: 0;
 }
-.lonon-timeline > li {
+.profile-timeline > li {
   margin-bottom: 35px;
   margin-left: 10%;
 }
-.lonon-timeline > li:last-child {
+.profile-timeline > li:last-child {
   margin-bottom: 0;
 }
-.lonon-timeline > li:hover .lonon-timeline-content:before {
+.profile-timeline > li:hover .profile-timeline-content:before {
   background-color: #101010;
   box-shadow: 0 0 0 1px #101010;
 }
-.lonon-timeline > li:hover .lonon-timeline-content .lonon-timeline-date {
+.profile-timeline > li:hover .profile-timeline-content .profile-timeline-date {
   margin-left: -16px;
 }
-.lonon-timeline > li .lonon-timeline-content {
+.profile-timeline > li .profile-timeline-content {
   padding: 0 50px;
   position: relative;
 }
-.lonon-timeline > li .lonon-timeline-content:before {
+.profile-timeline > li .profile-timeline-content:before {
   content: "";
   position: absolute;
   left: 0;
@@ -2033,12 +2034,12 @@ ul.social-network li {
   margin-left: -7px;
   border-radius: 50%;
 }
-.lonon-timeline > li .lonon-timeline-content h4 {
+.profile-timeline > li .profile-timeline-content h4 {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 15px;
 }
-.lonon-timeline > li .lonon-timeline-content h5 {
+.profile-timeline > li .profile-timeline-content h5 {
   display: block;
   margin-top: 0;
   margin-bottom: 5px;
@@ -2048,11 +2049,11 @@ ul.social-network li {
   letter-spacing: 0.05em;
   font-weight: 400;
 }
-.lonon-timeline > li .lonon-timeline-content p {
+.profile-timeline > li .profile-timeline-content p {
   margin-top: 10px;
   margin-bottom: 0;
 }
-.lonon-timeline > li .lonon-timeline-content .lonon-timeline-date {
+.profile-timeline > li .profile-timeline-content .profile-timeline-date {
   position: relative;
   display: inline-block;
   padding: 0 12px;
@@ -2164,7 +2165,7 @@ ul.social-network li {
 
 /* 17. Testiominals styles */
 
-.lonon-quote-card {
+.profile-quote-card {
   padding: 60px 40px;
   background-color: #f6f6f6;
   text-align: center;
@@ -2172,7 +2173,7 @@ ul.social-network li {
   margin-bottom: 30px;
 }
 
-.lonon-quote-card img {
+.profile-quote-card img {
   position: absolute;
   opacity: 0.05;
   top: -25px;
@@ -2180,28 +2181,28 @@ ul.social-network li {
   width: 55px;
 }
 
-.lonon-quote-card .lonon-quote-2 {
+.profile-quote-card .profile-quote-2 {
   margin-top: 10px;
 }
 
-.lonon-quote-card p {
+.profile-quote-card p {
   font-size: 16px;
   margin-bottom: 30px;
 }
 
-.lonon-quote-card p.occupation {
+.profile-quote-card p.occupation {
   font-size: 14px;
   margin: 0;
 }
 
-.lonon-quote-card h5 {
+.profile-quote-card h5 {
   margin-top: 20px;
   margin-bottom: 0;
   font-size: 18px;
   font-family: "Rambla", sans-serif;
 }
 
-.lonon-quote-2 {
+.profile-quote-2 {
   opacity: 0.15;
 }
 
@@ -2247,4 +2248,16 @@ hr {
   margin-top: 0px;
   margin-bottom: -20px;
   border: 0;
+}
+
+@media (max-width: 768px) {
+  .owl-item img {
+    height: 40vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .owl-item img {
+    height: 50vw;
+  }
 }
