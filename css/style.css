@@ -2249,6 +2249,11 @@ hr {
   margin-bottom: -20px;
   border: 0;
 }
+@media (max-width: 991px) {
+  .blog-entry .blog-img {
+    height: 140px;
+  }
+}
 
 @media (max-width: 768px) {
   .owl-item img {
