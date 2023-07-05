@@ -1342,7 +1342,7 @@ ol.comment-list li .children li {
   }
 }
 
-/*** 09. Footer styles ***/
+/*** 09. Footer styles  ***/
 
 #profile-footer2 {
   padding: 60px;
@@ -1350,7 +1350,7 @@ ol.comment-list li .children li {
 }
 
 #profile-footer2 h2 {
-  margin: 0 0 20px 0;
+  margin: 0;
   color: #fff;
   font-size: 24px;
   line-height: 1.5em;
@@ -1360,7 +1360,7 @@ ol.comment-list li .children li {
 
 @media screen and (max-width: 768px) {
   #profile-footer2 {
-    padding: 80px 30px;
+    padding: 30px;
     text-align: center;
   }
 }
@@ -1396,7 +1396,7 @@ ol.comment-list li .children li {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
@@ -1429,7 +1429,7 @@ ul.social-network {
   margin-left: 0 !important;
   padding: 0;
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 ul.social-network li {
@@ -2248,6 +2248,14 @@ hr {
   margin-top: 0px;
   margin-bottom: -20px;
   border: 0;
+}
+
+.profile-skills p a {
+  color: #999;
+}
+
+.mfp-gallery .mfp-container button:hover {
+  background-color: transparent;
 }
 @media (max-width: 991px) {
   .blog-entry .blog-img {
