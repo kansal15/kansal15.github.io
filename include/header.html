@@ -68,20 +68,14 @@
             url = 'index.html';
         }
 
-        console.log(`url ${url}`);
-
+       
         // Loop all menu items
         $('#profile-page nav>ul>li').each(function () {
-            console.log("enter");
             // select href
             var href = $(this).find('a').attr('href');
-            console.log(href);
             // Check filename
             if (url == href) {
 
-                // Select parent class
-                // var parentClass = $(this).parent('ul').addClass('bg');
-                // alert(parentClass);
                 $(this).addClass('profile-active');
 
             }
