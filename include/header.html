@@ -1,0 +1,90 @@
+<style>
+    .bg {
+        border: 2px solid red;
+    }
+</style>
+
+<!-- Sidebar Section -->
+<aside id="profile-aside">
+    <!-- Logo -->
+    <h1 id="profile-logo">
+        <img src="images/profile.jpeg" alt="" class="img" />
+        <a href="index.html"> <img src="images/gk-logo.png" alt="logo-img" class="logo-img" /> </a>
+    </h1>
+    <!-- Menu -->
+    <nav id="profile-main-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Sidebar Footer -->
+    <div class="profile-footer">
+        <ul>
+            <li>
+                <a href="https://twitter.com/kansal15" target="_blank"><i
+                        class="ti-twitter-alt font-14px gray-icon"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/gaurav-kansal/" target="_blank"><i
+                        class="ti-linkedin font-14px gray-icon"></i></a>
+            </li>
+
+        </ul>
+        <p>
+            <small>&copy; 2019-2023 by <a>Gaurav Kansal</a></small>
+        </p>
+    </div>
+
+</aside>
+
+<script>
+
+
+    $(document).ready(function () {
+
+
+        // Get current page URL
+        var url = window.location.href;
+
+        // remove # from URL
+        url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
+
+        // remove parameters from URL
+        url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
+
+        // select file name
+        url = url.substr(url.lastIndexOf("/") + 1);
+
+
+        // If file name not avilable
+        if (url == '') {
+            url = 'index.html';
+        }
+
+        console.log(`url ${url}`);
+
+        // Loop all menu items
+        $('#profile-page nav>ul>li').each(function () {
+            console.log("enter");
+            // select href
+            var href = $(this).find('a').attr('href');
+            console.log(href);
+            // Check filename
+            if (url == href) {
+
+                // Select parent class
+                // var parentClass = $(this).parent('ul').addClass('bg');
+                // alert(parentClass);
+                $(this).addClass('profile-active');
+
+            }
+        });
+    });
+</script>
