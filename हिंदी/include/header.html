@@ -1,0 +1,93 @@
+<style>
+    .bg {
+        border: 2px solid red;
+    }
+</style>
+
+<!-- Sidebar Section -->
+<aside id="profile-aside">
+    <!-- Logo -->
+    <h1 id="profile-logo">
+        <img src="../images/profile.jpeg" alt="" class="img" />
+        <a href="मुख-पृष्ठ.html"> <img src="../../images/gk-logo.png" alt="logo-img" class="logo-img" /> </a>
+    </h1>
+    <!-- Menu -->
+    <nav id="profile-main-menu">
+        <ul>
+            <li><a href="&#x92E;&#x941;&#x916;-&#x92A;&#x943;&#x937;&#x94D;&#x920;.html">&#x92E;&#x941;&#x916;-&#x92A;&#x943;&#x937;&#x94D;&#x920;</a></li>
+            <li><a href="मेरे-बारे-में.html">मेरे बारे में</a></li>
+            <li><a href="पोर्टफोलियो.html">पोर्टफोलियो</a></li>
+<!--
+	    <li><a href="services.html">Services</a></li>
+-->
+	    <li><a href="ब्लॉग.html">ब्लॉग</a></li>
+            <li><a href="संपर्क.html">संपर्क</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Sidebar Footer -->
+    <div class="profile-footer">
+        <ul>
+            <li>
+                <a href="https://twitter.com/kansal15" target="_blank"><i
+                        class="ti-twitter-alt font-14px gray-icon"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/gaurav-kansal/" target="_blank"><i
+                        class="ti-linkedin font-14px gray-icon"></i></a>
+            </li>
+
+        </ul>
+        <p>
+            <small>&copy; 2019-2024 by <a>गौरव कंसल</a></small>
+        </p>
+        <p style="font-size: 12px; margin-top: 5px;"><a href="https://www.gauravkansal.in/" target="_blank">अंग्रेज़ी पर स्विच करें</a></p>
+
+    </div>
+
+</aside>
+
+<script>
+
+
+    $(document).ready(function () {
+
+
+        // Get current page URL
+        var url = window.location.href;
+
+       
+
+        // remove # from URL
+        url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
+
+        // remove parameters from URL
+        url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
+
+        // select file name
+        url = url.substr(url.lastIndexOf("/") + 1);
+        // console.log(url);
+
+        // If file name not avilable
+        if (url == '') {
+            url = '%E0%A4%AE%E0%A5%81%E0%A4%96-%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0.html';
+        }
+
+       
+        // Loop all menu items
+        $('#profile-page nav>ul>li').each(function () {
+            // select href
+            var href = $(this).find('a').attr('href');
+            let encoded = encodeURI(href);
+             console.log(encoded);
+            // Check filename
+            if (url == encoded) {
+
+                $(this).addClass('profile-active');
+
+            }
+        });
+    });
+</script>
+
