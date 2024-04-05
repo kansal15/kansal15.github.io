@@ -410,6 +410,17 @@ input[type="checkbox"] {
   display: none;
 }
 
+.switchHindi{
+  position: relative;
+    display: inline-block;
+    top: -40px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+    padding: 10px 0;
+}
+.switchHindi p{font-size: 14px; padding: 0;  margin: 0;}
+
 @media screen and (max-width: 1200px) {
   #profile-aside {
     width: 26.4%;
@@ -434,7 +445,7 @@ input[type="checkbox"] {
   font-size: 24px;
   line-height: 1em;
   font-family: "Rambla", sans-serif;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -560,7 +571,7 @@ input[type="checkbox"] {
   text-align: center;
   font-weight: 400;
   color: #999;
-  padding: 60px 30px 30px 30px;
+  padding: 35px 30px 30px 30px;
 }
 
 /* footer */

@@ -35,6 +35,16 @@ h6,
 .profile-about-heading{
     font-family: "Tiro Devanagari Marathi", serif !important;
   }
-  .p{
-    font-family: 'Mukta';
+
+  .switchEnglish{
+    position: relative;
+    display: inline-block;
+    top: -40px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+    padding: 10px 0;
   }
+
+  .switchEnglish p{font-size: 14px; padding: 0;  margin: 0;}
+
