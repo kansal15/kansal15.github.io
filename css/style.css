@@ -772,6 +772,7 @@ body.offcanvass .profile-nav-toggle {
 
 .blog-entry .blog-img {
   width: 275px;
+  max-width: 100%;
   float: left;
   overflow: hidden;
   position: relative;
