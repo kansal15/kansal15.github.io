@@ -771,19 +771,22 @@ body.offcanvass .profile-nav-toggle {
 }
 
 .blog-entry .blog-img {
-  width: 100%;
+  width: 275px;
   float: left;
   overflow: hidden;
   position: relative;
   z-index: 1;
   margin-bottom: 20px;
-  height: 230px;
-  overflow: hidden;
+  height: 160px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  border-radius: 5px;
 }
 
+.desc .list-inline-item {
+  display: inline-block;
+  font-size: 14px;
+}
 .blog-entry .blog-img img {
   position: relative;
   max-width: 100%;
@@ -801,9 +804,7 @@ body.offcanvass .profile-nav-toggle {
   min-height: 180px;
 }
 .blog-entry .desc h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  line-height: 1em;
+  line-height: 20px;
   font-weight: 400;
 }
 
@@ -812,7 +813,7 @@ body.offcanvass .profile-nav-toggle {
   text-decoration: none;
   font-family: "Rambla", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .blog-entry .desc span {
@@ -836,7 +837,20 @@ body.offcanvass .profile-nav-toggle {
 .blog-entry .desc .lead:hover {
   color: #101010;
 }
-
+.blog-entry .desc p{
+  font-size: 13px;
+  margin: auto;
+}
+.btn-transparent {
+  color: #bf8c55;
+  border: 0;
+  padding-left: 0;
+  font-weight: 600;
+  font-size: 13px;
+}
+.btn-transparent:hover{
+  color: #bf8c55;
+}
 /* .blog-entry:hover .blog-img img {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
