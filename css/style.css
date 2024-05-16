@@ -129,7 +129,9 @@ img {
   width: 100%;
   height: auto;
 }
-
+.contact-img img{
+  width: 75%;
+}
 .mb-30 {
   margin-bottom: 30px;
 }
@@ -2301,11 +2303,17 @@ hr {
   .blog-entry .blog-img {
     height: 140px;
   }
+  .contact-img img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
   .owl-item img {
     height: 40vw;
+  }
+  .contact-img img {
+    width: 100%;
   }
 }
 
