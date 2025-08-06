@@ -45,7 +45,7 @@
     </div>
     <!-- JS -->
     <script>
-        $(".profile-blog").load("../blog.html .profile-blog", function () {
+        $(".profile-blog").load("../blog.html .profile-blog .container-fluid", function () {
           $(".profile-blog .blog-img").each(function () {
             var src = $(this).find("img").attr("src");
            var newSrc = `../${src}`;
