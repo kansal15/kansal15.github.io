@@ -17,10 +17,11 @@
 * <b>Co-author:</b> "TUNE INTO WLC" (ISBN: 978-93-5419-656-0)
 * <b>Co-author:</b> "AN INTRODUCTION TO CYBER THREAT INTELLIGENCE" (ISBN: 978-93-5419-269-2)
 
-# Affiliations
+# Affiliation and Leadership
 * Member of [Address Supporting Organization](https://icannwiki.org/Address_Supporting_Organization) (tenure 01.Jan.2023 to 31.Dec.2024)
-* Co-Chair APNIC NIR SIG (tenure APNIC 54 - APNIC 58)
-* Member of RSSAC Caucus
+* [Co-Chair NIR SIG APNIC](https://www.bigpulse.com/pollresults?code=1346316wbVpkepya7RwfPKVRb66) (tenure APNIC 54 - APNIC 58)
+* Member of [RSSAC Caucus](https://www.icann.org/en/rssac/caucus/members?page=3)
 * RIPE Atlas Ambassador
 * ICANN Wiki Ambassador
 * ICANN [Fellowship Selection Committee Member](https://icannwiki.org/ICANN_Fellowship_Program#Fellowship_Selection_Committee) (ICANN 78 onwards)
+* APNIC 56 (2023) - [Program Committee](https://conference.apnic.net/56/program/programcommittee/index.html)
