@@ -23,8 +23,14 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'G-W7WNDR1EH6');
-	</script>
+	</script>	
+	<style>
+		  img {
+		      width: auto;
+		      max-width:100% !important;
+		  }
 
+	</style>
 </head>
 
 <body>
@@ -45,7 +51,7 @@
     </div>
     <!-- JS -->
     <script>
-        $(".profile-blog").load("../blog.html .profile-blog", function () {
+        $(".profile-blog").load("../blog.html .profile-blog .container-fluid", function () {
           $(".profile-blog .blog-img").each(function () {
             var src = $(this).find("img").attr("src");
            var newSrc = `../${src}`;
