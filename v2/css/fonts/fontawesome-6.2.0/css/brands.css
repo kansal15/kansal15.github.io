@@ -1,0 +1,1525 @@
+/*!
+ * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2022 Fonticons, Inc.
+ */
+:root, :host {
+  --fa-style-family-brands: 'Font Awesome 6 Brands';
+  --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands'; }
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.ttf") format("truetype"); }
+
+.fanew,
+.fanew-brands {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400; 
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fanew-monero:before {
+  content: "\f3d0"; }
+
+.fanew-hooli:before {
+  content: "\f427"; }
+
+.fanew-yelp:before {
+  content: "\f1e9"; }
+
+.fanew-cc-visa:before {
+  content: "\f1f0"; }
+
+.fanew-lastfm:before {
+  content: "\f202"; }
+
+.fanew-shopware:before {
+  content: "\f5b5"; }
+
+.fanew-creative-commons-nc:before {
+  content: "\f4e8"; }
+
+.fanew-aws:before {
+  content: "\f375"; }
+
+.fanew-redhat:before {
+  content: "\f7bc"; }
+
+.fanew-yoast:before {
+  content: "\f2b1"; }
+
+.fanew-cloudflare:before {
+  content: "\e07d"; }
+
+.fanew-ups:before {
+  content: "\f7e0"; }
+
+.fanew-wpexplorer:before {
+  content: "\f2de"; }
+
+.fanew-dyalog:before {
+  content: "\f399"; }
+
+.fanew-bity:before {
+  content: "\f37a"; }
+
+.fanew-stackpath:before {
+  content: "\f842"; }
+
+.fanew-buysellads:before {
+  content: "\f20d"; }
+
+.fanew-first-order:before {
+  content: "\f2b0"; }
+
+.fanew-modx:before {
+  content: "\f285"; }
+
+.fanew-guilded:before {
+  content: "\e07e"; }
+
+.fanew-vnv:before {
+  content: "\f40b"; }
+
+.fanew-square-js:before {
+  content: "\f3b9"; }
+
+.fanew-js-square:before {
+  content: "\f3b9"; }
+
+.fanew-microsoft:before {
+  content: "\f3ca"; }
+
+.fanew-qq:before {
+  content: "\f1d6"; }
+
+.fanew-orcid:before {
+  content: "\f8d2"; }
+
+.fanew-java:before {
+  content: "\f4e4"; }
+
+.fanew-invision:before {
+  content: "\f7b0"; }
+
+.fanew-creative-commons-pd-alt:before {
+  content: "\f4ed"; }
+
+.fanew-centercode:before {
+  content: "\f380"; }
+
+.fanew-glide-g:before {
+  content: "\f2a6"; }
+
+.fanew-drupal:before {
+  content: "\f1a9"; }
+
+.fanew-hire-a-helper:before {
+  content: "\f3b0"; }
+
+.fanew-creative-commons-by:before {
+  content: "\f4e7"; }
+
+.fanew-unity:before {
+  content: "\e049"; }
+
+.fanew-whmcs:before {
+  content: "\f40d"; }
+
+.fanew-rocketchat:before {
+  content: "\f3e8"; }
+
+.fanew-vk:before {
+  content: "\f189"; }
+
+.fanew-untappd:before {
+  content: "\f405"; }
+
+.fanew-mailchimp:before {
+  content: "\f59e"; }
+
+.fanew-css3-alt:before {
+  content: "\f38b"; }
+
+.fanew-square-reddit:before {
+  content: "\f1a2"; }
+
+.fanew-reddit-square:before {
+  content: "\f1a2"; }
+
+.fanew-vimeo-v:before {
+  content: "\f27d"; }
+
+.fanew-contao:before {
+  content: "\f26d"; }
+
+.fanew-square-font-awesome:before {
+  content: "\e5ad"; }
+
+.fanew-deskpro:before {
+  content: "\f38f"; }
+
+.fanew-sistrix:before {
+  content: "\f3ee"; }
+
+.fanew-square-instagram:before {
+  content: "\e055"; }
+
+.fanew-instagram-square:before {
+  content: "\e055"; }
+
+.fanew-battle-net:before {
+  content: "\f835"; }
+
+.fanew-the-red-yeti:before {
+  content: "\f69d"; }
+
+.fanew-square-hacker-news:before {
+  content: "\f3af"; }
+
+.fanew-hacker-news-square:before {
+  content: "\f3af"; }
+
+.fanew-edge:before {
+  content: "\f282"; }
+
+.fanew-napster:before {
+  content: "\f3d2"; }
+
+.fanew-square-snapchat:before {
+  content: "\f2ad"; }
+
+.fanew-snapchat-square:before {
+  content: "\f2ad"; }
+
+.fanew-google-plus-g:before {
+  content: "\f0d5"; }
+
+.fanew-artstation:before {
+  content: "\f77a"; }
+
+.fanew-markdown:before {
+  content: "\f60f"; }
+
+.fanew-sourcetree:before {
+  content: "\f7d3"; }
+
+.fanew-google-plus:before {
+  content: "\f2b3"; }
+
+.fanew-diaspora:before {
+  content: "\f791"; }
+
+.fanew-foursquare:before {
+  content: "\f180"; }
+
+.fanew-stack-overflow:before {
+  content: "\f16c"; }
+
+.fanew-github-alt:before {
+  content: "\f113"; }
+
+.fanew-phoenix-squadron:before {
+  content: "\f511"; }
+
+.fanew-pagelines:before {
+  content: "\f18c"; }
+
+.fanew-algolia:before {
+  content: "\f36c"; }
+
+.fanew-red-river:before {
+  content: "\f3e3"; }
+
+.fanew-creative-commons-sa:before {
+  content: "\f4ef"; }
+
+.fanew-safari:before {
+  content: "\f267"; }
+
+.fanew-google:before {
+  content: "\f1a0"; }
+
+.fanew-square-font-awesome-stroke:before {
+  content: "\f35c"; }
+
+.fanew-font-awesome-alt:before {
+  content: "\f35c"; }
+
+.fanew-atlassian:before {
+  content: "\f77b"; }
+
+.fanew-linkedin-in:before {
+  content: "\f0e1"; }
+
+.fanew-digital-ocean:before {
+  content: "\f391"; }
+
+.fanew-nimblr:before {
+  content: "\f5a8"; }
+
+.fanew-chromecast:before {
+  content: "\f838"; }
+
+.fanew-evernote:before {
+  content: "\f839"; }
+
+.fanew-hacker-news:before {
+  content: "\f1d4"; }
+
+.fanew-creative-commons-sampling:before {
+  content: "\f4f0"; }
+
+.fanew-adversal:before {
+  content: "\f36a"; }
+
+.fanew-creative-commons:before {
+  content: "\f25e"; }
+
+.fanew-watchman-monitoring:before {
+  content: "\e087"; }
+
+.fanew-fonticons:before {
+  content: "\f280"; }
+
+.fanew-weixin:before {
+  content: "\f1d7"; }
+
+.fanew-shirtsinbulk:before {
+  content: "\f214"; }
+
+.fanew-codepen:before {
+  content: "\f1cb"; }
+
+.fanew-git-alt:before {
+  content: "\f841"; }
+
+.fanew-lyft:before {
+  content: "\f3c3"; }
+
+.fanew-rev:before {
+  content: "\f5b2"; }
+
+.fanew-windows:before {
+  content: "\f17a"; }
+
+.fanew-wizards-of-the-coast:before {
+  content: "\f730"; }
+
+.fanew-square-viadeo:before {
+  content: "\f2aa"; }
+
+.fanew-viadeo-square:before {
+  content: "\f2aa"; }
+
+.fanew-meetup:before {
+  content: "\f2e0"; }
+
+.fanew-centos:before {
+  content: "\f789"; }
+
+.fanew-adn:before {
+  content: "\f170"; }
+
+.fanew-cloudsmith:before {
+  content: "\f384"; }
+
+.fanew-pied-piper-alt:before {
+  content: "\f1a8"; }
+
+.fanew-square-dribbble:before {
+  content: "\f397"; }
+
+.fanew-dribbble-square:before {
+  content: "\f397"; }
+
+.fanew-codiepie:before {
+  content: "\f284"; }
+
+.fanew-node:before {
+  content: "\f419"; }
+
+.fanew-mix:before {
+  content: "\f3cb"; }
+
+.fanew-steam:before {
+  content: "\f1b6"; }
+
+.fanew-cc-apple-pay:before {
+  content: "\f416"; }
+
+.fanew-scribd:before {
+  content: "\f28a"; }
+
+.fanew-openid:before {
+  content: "\f19b"; }
+
+.fanew-instalod:before {
+  content: "\e081"; }
+
+.fanew-expeditedssl:before {
+  content: "\f23e"; }
+
+.fanew-sellcast:before {
+  content: "\f2da"; }
+
+.fanew-square-twitter:before {
+  content: "\f081"; }
+
+.fanew-twitter-square:before {
+  content: "\f081"; }
+
+.fanew-r-project:before {
+  content: "\f4f7"; }
+
+.fanew-delicious:before {
+  content: "\f1a5"; }
+
+.fanew-freebsd:before {
+  content: "\f3a4"; }
+
+.fanew-vuejs:before {
+  content: "\f41f"; }
+
+.fanew-accusoft:before {
+  content: "\f369"; }
+
+.fanew-ioxhost:before {
+  content: "\f208"; }
+
+.fanew-fonticons-fi:before {
+  content: "\f3a2"; }
+
+.fanew-app-store:before {
+  content: "\f36f"; }
+
+.fanew-cc-mastercard:before {
+  content: "\f1f1"; }
+
+.fanew-itunes-note:before {
+  content: "\f3b5"; }
+
+.fanew-golang:before {
+  content: "\e40f"; }
+
+.fanew-kickstarter:before {
+  content: "\f3bb"; }
+
+.fanew-grav:before {
+  content: "\f2d6"; }
+
+.fanew-weibo:before {
+  content: "\f18a"; }
+
+.fanew-uncharted:before {
+  content: "\e084"; }
+
+.fanew-firstdraft:before {
+  content: "\f3a1"; }
+
+.fanew-square-youtube:before {
+  content: "\f431"; }
+
+.fanew-youtube-square:before {
+  content: "\f431"; }
+
+.fanew-wikipedia-w:before {
+  content: "\f266"; }
+
+.fanew-wpressr:before {
+  content: "\f3e4"; }
+
+.fanew-rendact:before {
+  content: "\f3e4"; }
+
+.fanew-angellist:before {
+  content: "\f209"; }
+
+.fanew-galactic-republic:before {
+  content: "\f50c"; }
+
+.fanew-nfc-directional:before {
+  content: "\e530"; }
+
+.fanew-skype:before {
+  content: "\f17e"; }
+
+.fanew-joget:before {
+  content: "\f3b7"; }
+
+.fanew-fedora:before {
+  content: "\f798"; }
+
+.fanew-stripe-s:before {
+  content: "\f42a"; }
+
+.fanew-meta:before {
+  content: "\e49b"; }
+
+.fanew-laravel:before {
+  content: "\f3bd"; }
+
+.fanew-hotjar:before {
+  content: "\f3b1"; }
+
+.fanew-bluetooth-b:before {
+  content: "\f294"; }
+
+.fanew-sticker-mule:before {
+  content: "\f3f7"; }
+
+.fanew-creative-commons-zero:before {
+  content: "\f4f3"; }
+
+.fanew-hips:before {
+  content: "\f452"; }
+
+.fanew-behance:before {
+  content: "\f1b4"; }
+
+.fanew-reddit:before {
+  content: "\f1a1"; }
+
+.fanew-discord:before {
+  content: "\f392"; }
+
+.fanew-chrome:before {
+  content: "\f268"; }
+
+.fanew-app-store-ios:before {
+  content: "\f370"; }
+
+.fanew-cc-discover:before {
+  content: "\f1f2"; }
+
+.fanew-wpbeginner:before {
+  content: "\f297"; }
+
+.fanew-confluence:before {
+  content: "\f78d"; }
+
+.fanew-mdb:before {
+  content: "\f8ca"; }
+
+.fanew-dochub:before {
+  content: "\f394"; }
+
+.fanew-accessible-icon:before {
+  content: "\f368"; }
+
+.fanew-ebay:before {
+  content: "\f4f4"; }
+
+.fanew-amazon:before {
+  content: "\f270"; }
+
+.fanew-unsplash:before {
+  content: "\e07c"; }
+
+.fanew-yarn:before {
+  content: "\f7e3"; }
+
+.fanew-square-steam:before {
+  content: "\f1b7"; }
+
+.fanew-steam-square:before {
+  content: "\f1b7"; }
+
+.fanew-500px:before {
+  content: "\f26e"; }
+
+.fanew-square-vimeo:before {
+  content: "\f194"; }
+
+.fanew-vimeo-square:before {
+  content: "\f194"; }
+
+.fanew-asymmetrik:before {
+  content: "\f372"; }
+
+.fanew-font-awesome:before {
+  content: "\f2b4"; }
+
+.fanew-font-awesome-flag:before {
+  content: "\f2b4"; }
+
+.fanew-font-awesome-logo-full:before {
+  content: "\f2b4"; }
+
+.fanew-gratipay:before {
+  content: "\f184"; }
+
+.fanew-apple:before {
+  content: "\f179"; }
+
+.fanew-hive:before {
+  content: "\e07f"; }
+
+.fanew-gitkraken:before {
+  content: "\f3a6"; }
+
+.fanew-keybase:before {
+  content: "\f4f5"; }
+
+.fanew-apple-pay:before {
+  content: "\f415"; }
+
+.fanew-padlet:before {
+  content: "\e4a0"; }
+
+.fanew-amazon-pay:before {
+  content: "\f42c"; }
+
+.fanew-square-github:before {
+  content: "\f092"; }
+
+.fanew-github-square:before {
+  content: "\f092"; }
+
+.fanew-stumbleupon:before {
+  content: "\f1a4"; }
+
+.fanew-fedex:before {
+  content: "\f797"; }
+
+.fanew-phoenix-framework:before {
+  content: "\f3dc"; }
+
+.fanew-shopify:before {
+  content: "\e057"; }
+
+.fanew-neos:before {
+  content: "\f612"; }
+
+.fanew-hackerrank:before {
+  content: "\f5f7"; }
+
+.fanew-researchgate:before {
+  content: "\f4f8"; }
+
+.fanew-swift:before {
+  content: "\f8e1"; }
+
+.fanew-angular:before {
+  content: "\f420"; }
+
+.fanew-speakap:before {
+  content: "\f3f3"; }
+
+.fanew-angrycreative:before {
+  content: "\f36e"; }
+
+.fanew-y-combinator:before {
+  content: "\f23b"; }
+
+.fanew-empire:before {
+  content: "\f1d1"; }
+
+.fanew-envira:before {
+  content: "\f299"; }
+
+.fanew-square-gitlab:before {
+  content: "\e5ae"; }
+
+.fanew-gitlab-square:before {
+  content: "\e5ae"; }
+
+.fanew-studiovinari:before {
+  content: "\f3f8"; }
+
+.fanew-pied-piper:before {
+  content: "\f2ae"; }
+
+.fanew-wordpress:before {
+  content: "\f19a"; }
+
+.fanew-product-hunt:before {
+  content: "\f288"; }
+
+.fanew-firefox:before {
+  content: "\f269"; }
+
+.fanew-linode:before {
+  content: "\f2b8"; }
+
+.fanew-goodreads:before {
+  content: "\f3a8"; }
+
+.fanew-square-odnoklassniki:before {
+  content: "\f264"; }
+
+.fanew-odnoklassniki-square:before {
+  content: "\f264"; }
+
+.fanew-jsfiddle:before {
+  content: "\f1cc"; }
+
+.fanew-sith:before {
+  content: "\f512"; }
+
+.fanew-themeisle:before {
+  content: "\f2b2"; }
+
+.fanew-page4:before {
+  content: "\f3d7"; }
+
+.fanew-hashnode:before {
+  content: "\e499"; }
+
+.fanew-react:before {
+  content: "\f41b"; }
+
+.fanew-cc-paypal:before {
+  content: "\f1f4"; }
+
+.fanew-squarespace:before {
+  content: "\f5be"; }
+
+.fanew-cc-stripe:before {
+  content: "\f1f5"; }
+
+.fanew-creative-commons-share:before {
+  content: "\f4f2"; }
+
+.fanew-bitcoin:before {
+  content: "\f379"; }
+
+.fanew-keycdn:before {
+  content: "\f3ba"; }
+
+.fanew-opera:before {
+  content: "\f26a"; }
+
+.fanew-itch-io:before {
+  content: "\f83a"; }
+
+.fanew-umbraco:before {
+  content: "\f8e8"; }
+
+.fanew-galactic-senate:before {
+  content: "\f50d"; }
+
+.fanew-ubuntu:before {
+  content: "\f7df"; }
+
+.fanew-draft2digital:before {
+  content: "\f396"; }
+
+.fanew-stripe:before {
+  content: "\f429"; }
+
+.fanew-houzz:before {
+  content: "\f27c"; }
+
+.fanew-gg:before {
+  content: "\f260"; }
+
+.fanew-dhl:before {
+  content: "\f790"; }
+
+.fanew-square-pinterest:before {
+  content: "\f0d3"; }
+
+.fanew-pinterest-square:before {
+  content: "\f0d3"; }
+
+.fanew-xing:before {
+  content: "\f168"; }
+
+.fanew-blackberry:before {
+  content: "\f37b"; }
+
+.fanew-creative-commons-pd:before {
+  content: "\f4ec"; }
+
+.fanew-playstation:before {
+  content: "\f3df"; }
+
+.fanew-quinscape:before {
+  content: "\f459"; }
+
+.fanew-less:before {
+  content: "\f41d"; }
+
+.fanew-blogger-b:before {
+  content: "\f37d"; }
+
+.fanew-opencart:before {
+  content: "\f23d"; }
+
+.fanew-vine:before {
+  content: "\f1ca"; }
+
+.fanew-paypal:before {
+  content: "\f1ed"; }
+
+.fanew-gitlab:before {
+  content: "\f296"; }
+
+.fanew-typo3:before {
+  content: "\f42b"; }
+
+.fanew-reddit-alien:before {
+  content: "\f281"; }
+
+.fanew-yahoo:before {
+  content: "\f19e"; }
+
+.fanew-dailymotion:before {
+  content: "\e052"; }
+
+.fanew-affiliatetheme:before {
+  content: "\f36b"; }
+
+.fanew-pied-piper-pp:before {
+  content: "\f1a7"; }
+
+.fanew-bootstrap:before {
+  content: "\f836"; }
+
+.fanew-odnoklassniki:before {
+  content: "\f263"; }
+
+.fanew-nfc-symbol:before {
+  content: "\e531"; }
+
+.fanew-ethereum:before {
+  content: "\f42e"; }
+
+.fanew-speaker-deck:before {
+  content: "\f83c"; }
+
+.fanew-creative-commons-nc-eu:before {
+  content: "\f4e9"; }
+
+.fanew-patreon:before {
+  content: "\f3d9"; }
+
+.fanew-avianex:before {
+  content: "\f374"; }
+
+.fanew-ello:before {
+  content: "\f5f1"; }
+
+.fanew-gofore:before {
+  content: "\f3a7"; }
+
+.fanew-bimobject:before {
+  content: "\f378"; }
+
+.fanew-facebook-f:before {
+  content: "\f39e"; }
+
+.fanew-square-google-plus:before {
+  content: "\f0d4"; }
+
+.fanew-google-plus-square:before {
+  content: "\f0d4"; }
+
+.fanew-mandalorian:before {
+  content: "\f50f"; }
+
+.fanew-first-order-alt:before {
+  content: "\f50a"; }
+
+.fanew-osi:before {
+  content: "\f41a"; }
+
+.fanew-google-wallet:before {
+  content: "\f1ee"; }
+
+.fanew-d-and-d-beyond:before {
+  content: "\f6ca"; }
+
+.fanew-periscope:before {
+  content: "\f3da"; }
+
+.fanew-fulcrum:before {
+  content: "\f50b"; }
+
+.fanew-cloudscale:before {
+  content: "\f383"; }
+
+.fanew-forumbee:before {
+  content: "\f211"; }
+
+.fanew-mizuni:before {
+  content: "\f3cc"; }
+
+.fanew-schlix:before {
+  content: "\f3ea"; }
+
+.fanew-square-xing:before {
+  content: "\f169"; }
+
+.fanew-xing-square:before {
+  content: "\f169"; }
+
+.fanew-bandcamp:before {
+  content: "\f2d5"; }
+
+.fanew-wpforms:before {
+  content: "\f298"; }
+
+.fanew-cloudversify:before {
+  content: "\f385"; }
+
+.fanew-usps:before {
+  content: "\f7e1"; }
+
+.fanew-megaport:before {
+  content: "\f5a3"; }
+
+.fanew-magento:before {
+  content: "\f3c4"; }
+
+.fanew-spotify:before {
+  content: "\f1bc"; }
+
+.fanew-optin-monster:before {
+  content: "\f23c"; }
+
+.fanew-fly:before {
+  content: "\f417"; }
+
+.fanew-aviato:before {
+  content: "\f421"; }
+
+.fanew-itunes:before {
+  content: "\f3b4"; }
+
+.fanew-cuttlefish:before {
+  content: "\f38c"; }
+
+.fanew-blogger:before {
+  content: "\f37c"; }
+
+.fanew-flickr:before {
+  content: "\f16e"; }
+
+.fanew-viber:before {
+  content: "\f409"; }
+
+.fanew-soundcloud:before {
+  content: "\f1be"; }
+
+.fanew-digg:before {
+  content: "\f1a6"; }
+
+.fanew-tencent-weibo:before {
+  content: "\f1d5"; }
+
+.fanew-symfony:before {
+  content: "\f83d"; }
+
+.fanew-maxcdn:before {
+  content: "\f136"; }
+
+.fanew-etsy:before {
+  content: "\f2d7"; }
+
+.fanew-facebook-messenger:before {
+  content: "\f39f"; }
+
+.fanew-audible:before {
+  content: "\f373"; }
+
+.fanew-think-peaks:before {
+  content: "\f731"; }
+
+.fanew-bilibili:before {
+  content: "\e3d9"; }
+
+.fanew-erlang:before {
+  content: "\f39d"; }
+
+.fanew-cotton-bureau:before {
+  content: "\f89e"; }
+
+.fanew-dashcube:before {
+  content: "\f210"; }
+
+.fanew-42-group:before {
+  content: "\e080"; }
+
+.fanew-innosoft:before {
+  content: "\e080"; }
+
+.fanew-stack-exchange:before {
+  content: "\f18d"; }
+
+.fanew-elementor:before {
+  content: "\f430"; }
+
+.fanew-square-pied-piper:before {
+  content: "\e01e"; }
+
+.fanew-pied-piper-square:before {
+  content: "\e01e"; }
+
+.fanew-creative-commons-nd:before {
+  content: "\f4eb"; }
+
+.fanew-palfed:before {
+  content: "\f3d8"; }
+
+.fanew-superpowers:before {
+  content: "\f2dd"; }
+
+.fanew-resolving:before {
+  content: "\f3e7"; }
+
+.fanew-xbox:before {
+  content: "\f412"; }
+
+.fanew-searchengin:before {
+  content: "\f3eb"; }
+
+.fanew-tiktok:before {
+  content: "\e07b"; }
+
+.fanew-square-facebook:before {
+  content: "\f082"; }
+
+.fanew-facebook-square:before {
+  content: "\f082"; }
+
+.fanew-renren:before {
+  content: "\f18b"; }
+
+.fanew-linux:before {
+  content: "\f17c"; }
+
+.fanew-glide:before {
+  content: "\f2a5"; }
+
+.fanew-linkedin:before {
+  content: "\f08c"; }
+
+.fanew-hubspot:before {
+  content: "\f3b2"; }
+
+.fanew-deploydog:before {
+  content: "\f38e"; }
+
+.fanew-twitch:before {
+  content: "\f1e8"; }
+
+.fanew-ravelry:before {
+  content: "\f2d9"; }
+
+.fanew-mixer:before {
+  content: "\e056"; }
+
+.fanew-square-lastfm:before {
+  content: "\f203"; }
+
+.fanew-lastfm-square:before {
+  content: "\f203"; }
+
+.fanew-vimeo:before {
+  content: "\f40a"; }
+
+.fanew-mendeley:before {
+  content: "\f7b3"; }
+
+.fanew-uniregistry:before {
+  content: "\f404"; }
+
+.fanew-figma:before {
+  content: "\f799"; }
+
+.fanew-creative-commons-remix:before {
+  content: "\f4ee"; }
+
+.fanew-cc-amazon-pay:before {
+  content: "\f42d"; }
+
+.fanew-dropbox:before {
+  content: "\f16b"; }
+
+.fanew-instagram:before {
+  content: "\f16d"; }
+
+.fanew-cmplid:before {
+  content: "\e360"; }
+
+.fanew-facebook:before {
+  content: "\f09a"; }
+
+.fanew-gripfire:before {
+  content: "\f3ac"; }
+
+.fanew-jedi-order:before {
+  content: "\f50e"; }
+
+.fanew-uikit:before {
+  content: "\f403"; }
+
+.fanew-fort-awesome-alt:before {
+  content: "\f3a3"; }
+
+.fanew-phabricator:before {
+  content: "\f3db"; }
+
+.fanew-ussunnah:before {
+  content: "\f407"; }
+
+.fanew-earlybirds:before {
+  content: "\f39a"; }
+
+.fanew-trade-federation:before {
+  content: "\f513"; }
+
+.fanew-autoprefixer:before {
+  content: "\f41c"; }
+
+.fanew-whatsapp:before {
+  content: "\f232"; }
+
+.fanew-slideshare:before {
+  content: "\f1e7"; }
+
+.fanew-google-play:before {
+  content: "\f3ab"; }
+
+.fanew-viadeo:before {
+  content: "\f2a9"; }
+
+.fanew-line:before {
+  content: "\f3c0"; }
+
+.fanew-google-drive:before {
+  content: "\f3aa"; }
+
+.fanew-servicestack:before {
+  content: "\f3ec"; }
+
+.fanew-simplybuilt:before {
+  content: "\f215"; }
+
+.fanew-bitbucket:before {
+  content: "\f171"; }
+
+.fanew-imdb:before {
+  content: "\f2d8"; }
+
+.fanew-deezer:before {
+  content: "\e077"; }
+
+.fanew-raspberry-pi:before {
+  content: "\f7bb"; }
+
+.fanew-jira:before {
+  content: "\f7b1"; }
+
+.fanew-docker:before {
+  content: "\f395"; }
+
+.fanew-screenpal:before {
+  content: "\e570"; }
+
+.fanew-bluetooth:before {
+  content: "\f293"; }
+
+.fanew-gitter:before {
+  content: "\f426"; }
+
+.fanew-d-and-d:before {
+  content: "\f38d"; }
+
+.fanew-microblog:before {
+  content: "\e01a"; }
+
+.fanew-cc-diners-club:before {
+  content: "\f24c"; }
+
+.fanew-gg-circle:before {
+  content: "\f261"; }
+
+.fanew-pied-piper-hat:before {
+  content: "\f4e5"; }
+
+.fanew-kickstarter-k:before {
+  content: "\f3bc"; }
+
+.fanew-yandex:before {
+  content: "\f413"; }
+
+.fanew-readme:before {
+  content: "\f4d5"; }
+
+.fanew-html5:before {
+  content: "\f13b"; }
+
+.fanew-sellsy:before {
+  content: "\f213"; }
+
+.fanew-sass:before {
+  content: "\f41e"; }
+
+.fanew-wirsindhandwerk:before {
+  content: "\e2d0"; }
+
+.fanew-wsh:before {
+  content: "\e2d0"; }
+
+.fanew-buromobelexperte:before {
+  content: "\f37f"; }
+
+.fanew-salesforce:before {
+  content: "\f83b"; }
+
+.fanew-octopus-deploy:before {
+  content: "\e082"; }
+
+.fanew-medapps:before {
+  content: "\f3c6"; }
+
+.fanew-ns8:before {
+  content: "\f3d5"; }
+
+.fanew-pinterest-p:before {
+  content: "\f231"; }
+
+.fanew-apper:before {
+  content: "\f371"; }
+
+.fanew-fort-awesome:before {
+  content: "\f286"; }
+
+.fanew-waze:before {
+  content: "\f83f"; }
+
+.fanew-cc-jcb:before {
+  content: "\f24b"; }
+
+.fanew-snapchat:before {
+  content: "\f2ab"; }
+
+.fanew-snapchat-ghost:before {
+  content: "\f2ab"; }
+
+.fanew-fantasy-flight-games:before {
+  content: "\f6dc"; }
+
+.fanew-rust:before {
+  content: "\e07a"; }
+
+.fanew-wix:before {
+  content: "\f5cf"; }
+
+.fanew-square-behance:before {
+  content: "\f1b5"; }
+
+.fanew-behance-square:before {
+  content: "\f1b5"; }
+
+.fanew-supple:before {
+  content: "\f3f9"; }
+
+.fanew-rebel:before {
+  content: "\f1d0"; }
+
+.fanew-css3:before {
+  content: "\f13c"; }
+
+.fanew-staylinked:before {
+  content: "\f3f5"; }
+
+.fanew-kaggle:before {
+  content: "\f5fa"; }
+
+.fanew-space-awesome:before {
+  content: "\e5ac"; }
+
+.fanew-deviantart:before {
+  content: "\f1bd"; }
+
+.fanew-cpanel:before {
+  content: "\f388"; }
+
+.fanew-goodreads-g:before {
+  content: "\f3a9"; }
+
+.fanew-square-git:before {
+  content: "\f1d2"; }
+
+.fanew-git-square:before {
+  content: "\f1d2"; }
+
+.fanew-square-tumblr:before {
+  content: "\f174"; }
+
+.fanew-tumblr-square:before {
+  content: "\f174"; }
+
+.fanew-trello:before {
+  content: "\f181"; }
+
+.fanew-creative-commons-nc-jp:before {
+  content: "\f4ea"; }
+
+.fanew-get-pocket:before {
+  content: "\f265"; }
+
+.fanew-perbyte:before {
+  content: "\e083"; }
+
+.fanew-grunt:before {
+  content: "\f3ad"; }
+
+.fanew-weebly:before {
+  content: "\f5cc"; }
+
+.fanew-connectdevelop:before {
+  content: "\f20e"; }
+
+.fanew-leanpub:before {
+  content: "\f212"; }
+
+.fanew-black-tie:before {
+  content: "\f27e"; }
+
+.fanew-themeco:before {
+  content: "\f5c6"; }
+
+.fanew-python:before {
+  content: "\f3e2"; }
+
+.fanew-android:before {
+  content: "\f17b"; }
+
+.fanew-bots:before {
+  content: "\e340"; }
+
+.fanew-free-code-camp:before {
+  content: "\f2c5"; }
+
+.fanew-hornbill:before {
+  content: "\f592"; }
+
+.fanew-js:before {
+  content: "\f3b8"; }
+
+.fanew-ideal:before {
+  content: "\e013"; }
+
+.fanew-git:before {
+  content: "\f1d3"; }
+
+.fanew-dev:before {
+  content: "\f6cc"; }
+
+.fanew-sketch:before {
+  content: "\f7c6"; }
+
+.fanew-yandex-international:before {
+  content: "\f414"; }
+
+.fanew-cc-amex:before {
+  content: "\f1f3"; }
+
+.fanew-uber:before {
+  content: "\f402"; }
+
+.fanew-github:before {
+  content: "\f09b"; }
+
+.fanew-php:before {
+  content: "\f457"; }
+
+.fanew-alipay:before {
+  content: "\f642"; }
+
+.fanew-youtube:before {
+  content: "\f167"; }
+
+.fanew-skyatlas:before {
+  content: "\f216"; }
+
+.fanew-firefox-browser:before {
+  content: "\e007"; }
+
+.fanew-replyd:before {
+  content: "\f3e6"; }
+
+.fanew-suse:before {
+  content: "\f7d6"; }
+
+.fanew-jenkins:before {
+  content: "\f3b6"; }
+
+.fanew-twitter:before {
+  content: "\f099"; }
+
+.fanew-rockrms:before {
+  content: "\f3e9"; }
+
+.fanew-pinterest:before {
+  content: "\f0d2"; }
+
+.fanew-buffer:before {
+  content: "\f837"; }
+
+.fanew-npm:before {
+  content: "\f3d4"; }
+
+.fanew-yammer:before {
+  content: "\f840"; }
+
+.fanew-btc:before {
+  content: "\f15a"; }
+
+.fanew-dribbble:before {
+  content: "\f17d"; }
+
+.fanew-stumbleupon-circle:before {
+  content: "\f1a3"; }
+
+.fanew-internet-explorer:before {
+  content: "\f26b"; }
+
+.fanew-telegram:before {
+  content: "\f2c6"; }
+
+.fanew-telegram-plane:before {
+  content: "\f2c6"; }
+
+.fanew-old-republic:before {
+  content: "\f510"; }
+
+.fanew-square-whatsapp:before {
+  content: "\f40c"; }
+
+.fanew-whatsapp-square:before {
+  content: "\f40c"; }
+
+.fanew-node-js:before {
+  content: "\f3d3"; }
+
+.fanew-edge-legacy:before {
+  content: "\e078"; }
+
+.fanew-slack:before {
+  content: "\f198"; }
+
+.fanew-slack-hash:before {
+  content: "\f198"; }
+
+.fanew-medrt:before {
+  content: "\f3c8"; }
+
+.fanew-usb:before {
+  content: "\f287"; }
+
+.fanew-tumblr:before {
+  content: "\f173"; }
+
+.fanew-vaadin:before {
+  content: "\f408"; }
+
+.fanew-quora:before {
+  content: "\f2c4"; }
+
+.fanew-reacteurope:before {
+  content: "\f75d"; }
+
+.fanew-medium:before {
+  content: "\f23a"; }
+
+.fanew-medium-m:before {
+  content: "\f23a"; }
+
+.fanew-amilia:before {
+  content: "\f36d"; }
+
+.fanew-mixcloud:before {
+  content: "\f289"; }
+
+.fanew-flipboard:before {
+  content: "\f44d"; }
+
+.fanew-viacoin:before {
+  content: "\f237"; }
+
+.fanew-critical-role:before {
+  content: "\f6c9"; }
+
+.fanew-sitrox:before {
+  content: "\e44a"; }
+
+.fanew-discourse:before {
+  content: "\f393"; }
+
+.fanew-joomla:before {
+  content: "\f1aa"; }
+
+.fanew-mastodon:before {
+  content: "\f4f6"; }
+
+.fanew-airbnb:before {
+  content: "\f834"; }
+
+.fanew-wolf-pack-battalion:before {
+  content: "\f514"; }
+
+.fanew-buy-n-large:before {
+  content: "\f8a6"; }
+
+.fanew-gulp:before {
+  content: "\f3ae"; }
+
+.fanew-creative-commons-sampling-plus:before {
+  content: "\f4f1"; }
+
+.fanew-strava:before {
+  content: "\f428"; }
+
+.fanew-ember:before {
+  content: "\f423"; }
+
+.fanew-canadian-maple-leaf:before {
+  content: "\f785"; }
+
+.fanew-teamspeak:before {
+  content: "\f4f9"; }
+
+.fanew-pushed:before {
+  content: "\f3e1"; }
+
+.fanew-wordpress-simple:before {
+  content: "\f411"; }
+
+.fanew-nutritionix:before {
+  content: "\f3d6"; }
+
+.fanew-wodu:before {
+  content: "\e088"; }
+
+.fanew-google-pay:before {
+  content: "\e079"; }
+
+.fanew-intercom:before {
+  content: "\f7af"; }
+
+.fanew-zhihu:before {
+  content: "\f63f"; }
+
+.fanew-korvue:before {
+  content: "\f42f"; }
+
+.fanew-pix:before {
+  content: "\e43a"; }
+
+.fanew-steam-symbol:before {
+  content: "\f3f6"; }
