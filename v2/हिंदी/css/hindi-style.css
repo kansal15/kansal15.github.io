@@ -1,0 +1,54 @@
+/* tiro-devanagari-marathi-regular - devanagari */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tiro Devanagari Marathi';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../css/hindi-fonts/tiro-devanagari-marathi-v5-devanagari-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */  
+}
+/* tiro-devanagari-marathi-italic - devanagari */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tiro Devanagari Marathi';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../css/hindi-fonts/tiro-devanagari-marathi-v5-devanagari-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+  body {
+    font-family: "Tiro Devanagari Marathi", serif !important;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #999;
+    background: #f2f2f2;
+  }
+  p,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.profile-about-heading{
+    font-family: "Tiro Devanagari Marathi", serif !important;
+  }
+  
+  .lnr {
+    font-family: 'Linearicons-Free' !important;
+  }
+
+  .switchEnglish{
+    position: relative;
+    display: inline-block;
+    top: -40px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+    padding: 10px 0;
+  }
+
+  .switchEnglish p{font-size: 14px; padding: 0;  margin: 0;}
+
