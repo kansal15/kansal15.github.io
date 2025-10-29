@@ -3000,6 +3000,18 @@ blockquote {
   display: block;
 }
 
+.switchHindi{
+  top: -24px;
+    display: inline-block;
+    position: relative;
+}
+
+.switchHindi p a{
+  color: #fff;
+}
+
+
+
 @media only screen and (max-width: 1024px) {
  .lm-animated-bg {
     display: none;
@@ -3014,6 +3026,9 @@ blockquote {
 
   .title-block .sp-subtitle {
     font-size: 18px;
+  }
+  .switchHindi{
+    top: -10px;
   }
 }
 
