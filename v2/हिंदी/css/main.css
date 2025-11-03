@@ -3052,7 +3052,7 @@ blockquote {
     /* background-color: #04b4e0; */
 	    padding: 50px;
       padding-top: 15px;
-      height: calc(100% - 110px);
+      height: calc(100% - 50px);
 }
 .animated-section, .single-page-content{
         border-radius: 12px;
@@ -3071,7 +3071,7 @@ box-shadow: 0px 4px 20px #8D8D99;
 }
 .mobile-section{
   display: block;
-  padding: 30px 50px 10px 50px;
+  padding: 20px 50px 5px 50px;
   position: relative;
 }
 
@@ -3112,6 +3112,6 @@ box-shadow: 0px 4px 20px #8D8D99;
   }
   .mobile-section{
     
-    padding: 30px 30px 10px 30px;
+    padding: 20px 50px 5px 50px;
   }
 }
