@@ -3110,4 +3110,8 @@ box-shadow: 0px 4px 20px #8D8D99;
     max-width: 180px;
     margin-bottom: 20px;
   }
+  .mobile-section{
+    
+    padding: 30px 30px 10px 30px;
+  }
 }
